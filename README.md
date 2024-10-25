@@ -73,11 +73,11 @@ Certifique-se de que as portas abaixo estão abertas e configuradas no firewall 
 2. **Execução do container**:
    - Inicie o container com o comando abaixo, mapeando as portas conforme necessário:
      ```bash
-     docker run -d -p 63303:63300 -it --rm --name docker-saude educacao-saude
+     docker run -d -p 63303:80 -it --rm --name docker-saude educacao-saude
      ```
    - Explicação dos parâmetros:
      - `-d`: Executa o container em segundo plano.
-     - `-p 63303:63300`: Mapeia a porta interna 63300 do container para a porta externa 63303 do host.
+     - `-p 63303:80`: Mapeia a porta interna 80 do container para a porta externa 63303 do host.
      - `--rm`: Remove o container automaticamente ao final da execução.
      - `--name docker-saude`: Nomeia o container como "docker-saude".
 
