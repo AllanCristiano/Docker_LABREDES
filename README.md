@@ -52,7 +52,8 @@ Abaixo estão as VLANs de gerenciamento e emergência, bem como as VLANs destina
 
 Certifique-se de que as portas abaixo estão abertas e configuradas no firewall para permitir o acesso ao portal:
 
-- **Porta 63300**: HTTP para acesso ao serviço web
+- **Porta 63303**: HTTP para acesso ao serviço web
+- **Porta 80**: HTTP para acesso ao serviço interno
 
 ## 4. Procedimentos de Implantação
 
