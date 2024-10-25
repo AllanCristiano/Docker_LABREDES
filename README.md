@@ -12,6 +12,8 @@
 - **Objetivo**: Implementação de um portal web para o Departamento de Educação em Saúde, servindo como interface centralizada para acesso a informações e recursos.
 - **Escopo**: Construção e execução do portal em um container Docker utilizando a imagem `nginx:1.24.0-alpine-slim`.
 
+ ![Portal do Departamento de Educação em Saúde](https://raw.githubusercontent.com/AllanCristiano/Docker_LABREDES/main/Captura%20de%20tela%20de%202024-10-25%2009-59-16.png)
+
 ## 3. Requisitos de Rede
 
 ### 3.1 VLANs Padronizadas
